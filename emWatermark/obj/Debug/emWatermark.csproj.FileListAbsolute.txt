@@ -1,0 +1,10 @@
+C:\Users\Bingzi\source\repos\emWatermark\emWatermark\bin\Debug\emWatermark.exe.config
+C:\Users\Bingzi\source\repos\emWatermark\emWatermark\bin\Debug\emWatermark.exe
+C:\Users\Bingzi\source\repos\emWatermark\emWatermark\bin\Debug\emWatermark.pdb
+C:\Users\Bingzi\source\repos\emWatermark\emWatermark\obj\Debug\emWatermark.csproj.AssemblyReference.cache
+C:\Users\Bingzi\source\repos\emWatermark\emWatermark\obj\Debug\emWatermark.Form1.resources
+C:\Users\Bingzi\source\repos\emWatermark\emWatermark\obj\Debug\emWatermark.Properties.Resources.resources
+C:\Users\Bingzi\source\repos\emWatermark\emWatermark\obj\Debug\emWatermark.csproj.GenerateResource.cache
+C:\Users\Bingzi\source\repos\emWatermark\emWatermark\obj\Debug\emWatermark.csproj.CoreCompileInputs.cache
+C:\Users\Bingzi\source\repos\emWatermark\emWatermark\obj\Debug\emWatermark.exe
+C:\Users\Bingzi\source\repos\emWatermark\emWatermark\obj\Debug\emWatermark.pdb
