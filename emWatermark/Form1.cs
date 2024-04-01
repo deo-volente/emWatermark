@@ -24,6 +24,10 @@ namespace emWatermark
 
             string imgPath= textBox1.Text;
             string watermark= textBox2.Text;
+            int x = 0;
+        
+
+
             if (imgPath !=""&& watermark!="")
             {
                 try
@@ -39,7 +43,13 @@ namespace emWatermark
                                 var font = new Font("微软雅黑", 20, FontStyle.Bold, GraphicsUnit.Pixel);
                                 var color = Color.FromArgb(128, 255, 255, 255);
                                 var brush = new SolidBrush(color);
-                                var point = new Point(img.Width - 130, img.Height - 50);
+                                if (radioButton1.Checked)
+                                    x = img.Width*95/100;
+                                if (radioButton2.Checked)
+                                    x = img.Width/2;
+                                if (radioButton3.Checked)
+                                    x = img.Width/10;
+                                var point = new Point(img.Width - x, img.Height - 30);
                                 graphic.DrawString(watermark, font, brush, point);
                                 if (!Directory.Exists($"{imgPath}\\emWatermark\\"))
                                     Directory.CreateDirectory($"{imgPath}\\emWatermark\\");
@@ -69,6 +79,17 @@ namespace emWatermark
            
 
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FolderBrowserDialog dialog = new FolderBrowserDialog();
+            dialog.Description = "请选择文件路径";
+
+            if (dialog.ShowDialog() == DialogResult.OK)
+            {               
+                textBox1.Text = dialog.SelectedPath;
+            }
         }
     }
 }
